@@ -1,0 +1,10 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "cSpell.words": [
+        "brank",
+        "branksync",
+        "Proxied",
+        "ranksync"
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic"
+}
