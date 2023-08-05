@@ -54,17 +54,21 @@ public class HypixelRank extends JavaPlugin implements Listener {
     }
 
     private Connection setupDatabase() {
-        String url = "jdbc:mysql://localhost:3306/fakenetwork?useSSL=false&serverTimezone=UTC";
-        String username = "root";
-        String password = "";
-
+        String host = getConfig().getString("mysql.host", "localhost");
+        int port = getConfig().getInt("mysql.port", 3306);
+        String database = getConfig().getString("mysql.database", "fakenetwork");
+        String username = getConfig().getString("mysql.username", "root");
+        String password = getConfig().getString("mysql.password", "");
+    
+        String url = "jdbc:mysql://" + host + ":" + port + "/" + database + "?useSSL=false&serverTimezone=UTC";
+    
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             return DriverManager.getConnection(url, username, password);
         } catch (SQLException | ClassNotFoundException throwables) {
             throwables.printStackTrace();
         }
-
+    
         return null;
     }
 

@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.nate.hypixel</groupId>
   <artifactId>HypixelRank</artifactId>
-  <version>2.2.0</version>
+  <version>2.2.2</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
