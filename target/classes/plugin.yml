@@ -1,0 +1,10 @@
+name: Ranks
+author: NatesHonor
+version: 1.0.3
+main: com.nate.hypixel.Rank
+api-version: 1.8.8
+
+commands:
+  rank:
+    description: Manage Hypixel ranks
+    usage: /ranksync
