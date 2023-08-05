@@ -1,0 +1,14 @@
+com\nate\hypixel\commands\EditorCommand.class
+com\nate\hypixel\commands\Permission.class
+com\nate\hypixel\commands\DeleteRankCommand.class
+com\nate\hypixel\commands\AddRankCommand.class
+com\nate\hypixel\HypixelRank.class
+com\nate\hypixel\utils\data\mysql\Mysql.class
+com\nate\hypixel\commands\RankCommand.class
+com\nate\hypixel\utils\PermissionsHandler.class
+com\nate\hypixel\utils\data\mysql\Prefix.class
+com\nate\hypixel\utils\data\mysql\Rank.class
+com\nate\hypixel\commands\ListRanksCommand.class
+com\nate\hypixel\commands\ListCommand.class
+com\nate\hypixel\commands\SetRankCommand.class
+com\nate\hypixel\commands\Test.class

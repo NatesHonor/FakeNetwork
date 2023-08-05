@@ -1,0 +1,38 @@
+name: Ranks
+author: NatesHonor
+version: 2.2.1
+main: com.nate.hypixel.HypixelRank
+api-version: 1.8.8
+
+commands:
+  rank:
+    description: Manage Hypixel ranks
+    usage: /rank
+  rank create:
+    description: Create a rank
+    usage: /rank create <rankname> <prefix> <weight>
+  rank listranks:
+    description: List all ranks
+    usage: /rank list
+    aliases:
+      - ranks
+  rank deleterank:
+    description: Delete a rank
+    usage: /rank deleterank <rankname>
+    aliases:
+      - dr
+  rank assignrank:
+    description: Assign a rank
+    usage: /rank assign <player> <rank>
+  nick:
+    description: Nickname a player
+    usage: /rank nick <player> <nickname>
+  rank permission add:
+    description: Manage permissions
+    usage: /rank permission <add/remove> <player> <permission>
+  rank permission list:
+    description: Lists all permissions a group has
+    usage: /rank permission list <group>
+  test:
+    description: Test command
+    usage: /test
